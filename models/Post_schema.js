@@ -8,8 +8,8 @@ const Post_Schema = new Schema({
   likes: { type: Number, required: true },
   description: { type: String, required: true },
   PostImage: { type: String, required: true },
-  date: { type: Date, required: true },
+  date: { type: String, required: true },
 });
-const PostBD = mongoose.model("PostDB", Post_Schema);
+const PostDB = mongoose.model("PostDB", Post_Schema);
 
-module.exports = PostBD;
+module.exports = PostDB;

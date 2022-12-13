@@ -19,8 +19,10 @@
   "homepage": "https://github.com/AKASH-926/Insta-clone-api#readme",
   "dependencies": {
     "body-parser": "^1.20.1",
+    "cloudinary": "^1.32.0",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
     "mongoose": "^6.8.0"
   }
 }
