@@ -39,7 +39,7 @@ Post_route.get("/instaclone/data", async (req, res) => {
 });
 Post_route.post("/instaclone/data", async (req, res) => {
     try {
-        const file = req.files.image;
+        const file = req.files.PostImage;
         const result = await cloudinary.uploader.upload(file.tempFilePath, {
             public_id: `${Date.now()}`,
             resource_type: "auto",
