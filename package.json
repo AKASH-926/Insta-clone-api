@@ -1,0 +1,23 @@
+{
+  "name": "insta-clone-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AKASH-926/Insta-clone-api.git"
+  },
+  "author": "AKASH A P",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AKASH-926/Insta-clone-api/issues"
+  },
+  "homepage": "https://github.com/AKASH-926/Insta-clone-api#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0"
+  }
+}
